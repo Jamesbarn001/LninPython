@@ -12,3 +12,9 @@ print(cars['Mazda'])
 print(cars['Isuzu'])
 newcar=cars['Isuzu']
 print(f"Mem just bought a {newcar} truck"  )
+
+Location={'Meru':'Kiirua','Nairobi':'Kawangware','Uganda':'Kampala','Laikipia':'Nanyuki'}
+print(Location)
+print(Location['Meru'])
+newlocation=Location['Nairobi']
+print(newlocation)
